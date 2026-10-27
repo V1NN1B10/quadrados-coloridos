@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.cabecalho{
+    display: flex;
+    height: 70px;
+}
+.camada1 {
+    background-color: blue;
+    padding: 40px;
+    width: 200px;
+}
+.camada2 {
+    background-color: brown;
+    padding: 40px;
+    width: 120%;
+}
+
+.camada3{
+    background-color: chartreuse;
+    padding: 30px;
+}
+
+.camada4{
+    background-color: darkkhaki;
+    padding: 180px;
+    border: 12px solid red;
+}
+.camada5{
+    background-color: gray;
+    padding: 15px;
+}
